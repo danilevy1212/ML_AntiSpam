@@ -12,7 +12,7 @@ Master proyect for "M√°ster Universitario en Ciberseguridad", Universidad Polit√
 
 Follow the instructions in: [postfix-filter-loop](https://github.com/MiroslavHoudek/postfix-filter-loop). Once PostFix is correctly configured to relay messages to the STMP server, reload the PostFix service 
 
-``sudo PostFix Reload``
+``sudo postfix Reload``
 
 And run the python script in /path/to/filter/filter.py
 
