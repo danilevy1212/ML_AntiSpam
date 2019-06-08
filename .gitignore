@@ -121,3 +121,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Data storage
+dataSets/
+!dataSets/test/*
