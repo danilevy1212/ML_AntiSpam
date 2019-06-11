@@ -5,9 +5,17 @@ Master proyect for "M√°ster Universitario en Ciberseguridad", Universidad Polit√
  
 ### Requirements
 
-- PostFix 
-- Python 3.7
-- Scikit-learn
+- postfix 
+- python 3.7
+
+### Dependencies (to build the environment)
+
+- scikit-learn
+- numpy
+- pandas
+- pip
+- mailparser
+- nltk
 
 ### Installation
 
@@ -29,6 +37,9 @@ Try sending mail, it the behaviour is not as expected, check logs at (debian/ubu
 
 ``/var/log/mail.log``
 
+After setting up the environment, run the script nltk_setup.py on working directory to download the necessary nltk packages as such:
+
+``python nltk_setup.py``
 
 ### Special thanks/Mentions
 
