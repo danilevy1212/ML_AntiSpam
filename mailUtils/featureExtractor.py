@@ -18,7 +18,7 @@ class featExt(object):
         self.word_dict = word_dict
         self.stop = stop
 
-    def getFeatures(self, raw_text, cls):
+    def getFeatures(self, raw_text, cls='tbd'):
         parsedMail = mailparser.parse_from_string(raw_text)
         return {
             "origin_timezone": parsedMail.timezone,
